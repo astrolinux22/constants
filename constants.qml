@@ -1,5 +1,7 @@
 import QtQuick 2.0
 import Ubuntu.Components 0.1
+import QtQuick.XmlListModel 2.0
+import Ubuntu.Components.ListItems 0.1
 import "ui"
 
 /*!
@@ -21,22 +23,38 @@ MainView {
     */
     automaticOrientation: true
 
-    width: units.gu(100)
+    width: units.gu(50)
     height: units.gu(75)
 
+    XmlListModel{
+        id: tabsFetcher
+        source: "data/tabs.xml"
+        query: "/tabs/tab"
+
+        XmlRole { name: "categoryTitle"; query: "@title/string()" }
+    }
     Tabs {
-        id: tabs
+        id:tabs
+        Repeater {
+            model:tabsFetcher
+            Tab {
+                objectName: "title"
+                title: categoryTitle
 
-        BaseUnitsTab {
-            objectName: "BaseUnitsTab"
-        }
+                page: Page {
+                    Column {
+                        spacing: units.gu(2)
+                        anchors.centerIn: parent
 
-        DerivedUnitsTab {
-            objectName: "DerivedUnitsTab"
-        }
+                    Label {
+                        objectName: "helloTab_label"
 
-        PrefixesTab {
-            objectName: "PrefixesTab"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                        text: i18n.tr("You can change the Tab from Page title above.")
+                        }
+                    }
+                }
+            }
         }
     }
 }

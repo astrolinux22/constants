@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+<tab title="Physical" >PhysicalConstants</tab>
+<tab title="General" >GeneralConstants</tab>
+<tab title="Atomic" >AtomicConstants</tab>
+</tabs>
