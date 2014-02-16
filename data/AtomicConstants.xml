@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<category>
 <constant>
-	<symbol>c</symbol>
+	<symbol>Atom</symbol>
         <value>2.99792458</value>
 	<exponent>8</exponent>
 	<units>ms^{-1}</units>
@@ -83,4 +84,4 @@
 	<units>ms^{-1}</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
-
+</category>

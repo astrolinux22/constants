@@ -33,6 +33,7 @@ MainView {
 
         XmlRole { name: "categoryTitle"; query: "@title/string()" }
     }
+
     Tabs {
         id:tabs
         Repeater {
@@ -41,19 +42,44 @@ MainView {
                 objectName: "title"
                 title: categoryTitle
 
-                page: Page {
-                    Column {
-                        spacing: units.gu(2)
-                        anchors.centerIn: parent
+                XmlListModel{
+                    id: constantsFetcher
+                    source: "data/" + categoryTitle + "Constants.xml"
 
-                    Label {
-                        objectName: "helloTab_label"
-
-                        anchors.horizontalCenter: parent.horizontalCenter
-                        text: i18n.tr("You can change the Tab from Page title above.")
-                        }
-                    }
+                    query: "/category/constant"
+                    XmlRole { name: "constantSymbol"; query: "symbol/string()" }
+                    XmlRole { name: "constantValue"; query: "value/string()" }
+                    XmlRole { name: "constantExponent"; query: "exponent/string()" }
+                    XmlRole { name: "constantUnits"; query: "units/string()" }
+                    XmlRole { name: "constantDescription"; query: "description/string()" }
                 }
+
+                page: Page {
+
+                        tools: ToolbarItems {
+                            ToolbarButton {
+                                iconSource: Qt.resolvedUrl("graphics/toolbarIcon.png")
+                                text: i18n.tr("About")
+                            }
+                        }
+                        ListView {
+                            id:constantsList
+                            anchors.top: parent.top
+                            anchors.bottom: parent.bottom
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            clip: true
+
+                            model:constantsFetcher
+                            delegate: Subtitled {
+                                //icon: Qt.resolvedUrl("avatar_contacts_list.png")
+                                text: constantSymbol + "\t" + constantValue + "E" + constantExponent + "\t " + constantUnits
+                                subText: constantDescription
+                            }
+                        }
+
+                }
+
             }
         }
     }
