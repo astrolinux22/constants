@@ -3,4 +3,10 @@
 <tab title="Physical" >PhysicalConstants</tab>
 <tab title="General" >GeneralConstants</tab>
 <tab title="Atomic" >AtomicConstants</tab>
+<tab title="Electron" >ElectronConstants</tab>
+<tab title="Proton" >ProtonConstants</tab>
+<tab title="Neutron" >NeutronConstants</tab>
+<tab title="Muon &amp; Tau" >MuonandTauConstants</tab>
+<tab title="Bulk Physical" >BulkPhysicalConstants</tab>
+<tab title="Mathematical" >MathematicalConstants</tab>
 </tabs>

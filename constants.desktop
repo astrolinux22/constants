@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=constants
-Exec=/usr/bin/qmlscene $@ /usr/share/constants/constants.qml
+Exec=/usr/bin/qmlscene constants.qml
 Icon=qmlscene
 Terminal=false
 Type=Application

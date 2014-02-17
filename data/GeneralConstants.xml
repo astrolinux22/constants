@@ -8,7 +8,7 @@
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
-	<symbol>c</symbol>
+	<symbol>$$\mu_0$$</symbol>
         <value>2.99792458</value>
 	<exponent>8</exponent>
 	<units>ms^{-1}</units>

@@ -1,87 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <category>
 <constant>
-	<symbol>Atom</symbol>
+	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
+	<description>Speed of Light in a Vacuum</description>
+</constant>
+<constant>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
 	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
+	<description>Speed of Light in a Vacuum</description>
+</constant>
+<constant>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
 	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
+	<description>Speed of Light in a Vacuum</description>
+</constant>
+<constant>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
 	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
+	<description>Speed of Light in a Vacuum</description>
+</constant>
+<constant>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
 	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
+	<description>Speed of Light in a Vacuum</description>
+</constant>
+<constant>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
 	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
+	<description>Speed of Light in a Vacuum</description>
+</constant>
+<constant>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
 	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
+	<description>Speed of Light in a Vacuum</description>
+</constant>
+<constant>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
 	<symbol>c</symbol>
         <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<exponent>&#8312;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 <constant>
-	<symbol>c</symbol>
-        <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
-	<description>Speed of Light in a Vacuum</description>
-</constant>
-<constant>
-	<symbol>c</symbol>
-        <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
-	<description>Speed of Light in a Vacuum</description>
-</constant>
-<constant>
-	<symbol>c</symbol>
-        <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
-	<description>Speed of Light in a Vacuum</description>
-</constant>
-<constant>
-	<symbol>c</symbol>
-        <value>2.99792458</value>
-	<exponent>8</exponent>
-	<units>ms^{-1}</units>
+	<symbol>&#956; <sub>0</sub></symbol>
+        <value>121.566370614</value>
+	<exponent>&#8315;&#8311;</exponent>
+	<units>ms&#8315;&#185;</units>
 	<description>Speed of Light in a Vacuum</description>
 </constant>
 </category>
